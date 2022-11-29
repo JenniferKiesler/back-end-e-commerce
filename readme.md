@@ -9,7 +9,7 @@ In this application,
 - when schema and seed commands are entered, a development database is created and is seeded with test data.
 - when the user enters the command to invoke the application, the server is started and the Sequelize models are synced to the MySQL database.
 - For the API GET routes for categories, products, or tags, the data for each of these routes is displayed in a formatted JSON.
-- For the API POST, PUT, and DELETE routes, the data in my database is successfully created, updated, and deleted.
+- For the API POST, PUT, and DELETE routes, the data in the database is successfully created, updated, and deleted.
 
 ## Installation
 
@@ -22,7 +22,7 @@ npm install
 To create the database, log into MySQL Shell and use:
 
 ```
-SOURCE schema.sql
+SOURCE db/schema.sql
 ```
 
 To seed the database, use the following command:
@@ -41,11 +41,9 @@ npm run watch
 
 ## Walkthrough Video
 
-Use the link below to view a walkthrough of this application.
+Use the link below to view a walkthrough of this application (if the video is blurry, download the video).
 
 https://drive.google.com/file/d/1fIOyzLEqBylTRxwNGvU4-KNU7u9NBgy0/view?usp=sharing
-
-If the video is blurry, download the video.
 
 ## Questions
 
